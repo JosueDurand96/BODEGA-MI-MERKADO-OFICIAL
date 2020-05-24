@@ -17,9 +17,10 @@ import com.mimerkado.helper.util.ViewModelUtil
 import com.mimerkado.bodega.MainPrincipalActivity
 import com.mimerkado.bodega.R
 import com.mimerkado.bodega.ScreenState
+import com.mimerkado.helper.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : BaseActivity() {
     private var coreStorage: BCPStorage? = null
     private lateinit var btnLogin: Button
     private lateinit var btnRegister: Button
