@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':data', ':domain', ':helper', ':networking'
 rootProject.name='Bodega Mi Merkado'
