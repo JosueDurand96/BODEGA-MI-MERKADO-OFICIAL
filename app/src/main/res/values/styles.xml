@@ -8,4 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyStyle">
+        <item name="colorAccent">@color/colorMiMerkado</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/flexo_thin</item>
+        <item name="android:textSize">@dimen/dimen_18dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Mi mercado</item>
+        <item name="android:textColor">@color/onsurface_400</item>
+    </style>
+
+    <style name="NavigationDrawerStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">@font/flexo_thin</item>
+        <item name="android:textSize">@dimen/dimen_18dp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
 </resources>
